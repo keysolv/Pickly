@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/tristan/temp/Pickly/.build/x86_64-apple-macosx/debug/Pickly.build/master.swiftdeps"
+  },
+  "/Users/tristan/temp/Pickly/Sources/Pickly/Pickly.swift": {
+    "dependencies": "/Users/tristan/temp/Pickly/.build/x86_64-apple-macosx/debug/Pickly.build/Pickly.d",
+    "object": "/Users/tristan/temp/Pickly/.build/x86_64-apple-macosx/debug/Pickly.build/Pickly.swift.o",
+    "swiftmodule": "/Users/tristan/temp/Pickly/.build/x86_64-apple-macosx/debug/Pickly.build/Pickly~partial.swiftmodule",
+    "swift-dependencies": "/Users/tristan/temp/Pickly/.build/x86_64-apple-macosx/debug/Pickly.build/Pickly.swiftdeps"
+  }
+}

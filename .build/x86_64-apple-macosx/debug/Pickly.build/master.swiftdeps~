@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "feaebb098b46fdf873c61fc002f9b006"
+build_time: [1596486789, 965298000]
+inputs:
+  "/Users/tristan/temp/Pickly/Sources/Pickly/Pickly.swift": [1596486501, 585921777]

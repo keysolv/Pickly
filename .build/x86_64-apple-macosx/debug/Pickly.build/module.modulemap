@@ -1,0 +1,4 @@
+module Pickly {
+    header "/Users/tristan/temp/Pickly/.build/x86_64-apple-macosx/debug/Pickly.build/Pickly-Swift.h"
+    requires objc
+}

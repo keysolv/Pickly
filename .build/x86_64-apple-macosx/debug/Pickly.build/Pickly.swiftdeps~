@@ -1,0 +1,20 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Pickly"
+provides-nominal:
+- "6PicklyAAV"
+provides-member:
+- ["6PicklyAAV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Pickly"
+- "StringLiteralType"
+depends-member:
+- ["6PicklyAAV", "init"]
+- ["6PicklyAAV", "text"]
+depends-nominal:
+- "6PicklyAAV"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/tristan/temp/Pickly/.build/x86_64-apple-macosx/debug/Pickly.build/module.modulemap"
+interface-hash: "644ceaf4893fe97d30e742886a715e2c"
