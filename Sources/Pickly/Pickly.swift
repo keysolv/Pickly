@@ -1,14 +1,20 @@
 
 import SwiftUI
 
-struct Pickly: View {
+public struct Pickly: View {
     var label: String
     var sourcelist: [String]
         
-    @Binding var selectedItem: String
+    var selectedItem: Binding<String>
     
-    var body: some View {
-        Picker("\(label)", selection: $selectedItem) {
+    public init(label: String, list: [String], selectedItem: Binding<String>) {
+        self.label = label
+        self.sourcelist = list
+        self.selectedItem = selectedItem
+    }
+    
+    public var body: some View {
+        Picker("\(label)", selection: self.selectedItem) {
              ForEach(self.sourcelist, id : \.self) { i in
                   Text(String(i))
              }
